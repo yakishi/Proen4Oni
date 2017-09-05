@@ -78,9 +78,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Scripts\GUI\TimeGUI.cs" />
+    <Compile Include="Assets\Resources\Scripts\GUI\Timer.cs" />
+    <Compile Include="Assets\Resources\Scripts\Game.cs" />
     <Compile Include="Assets\Resources\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Resources\Scripts\MyInput.cs" />
     <Compile Include="Assets\Resources\Scripts\Player.cs" />
+    <Compile Include="Assets\Resources\Scripts\SampleCamera.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
